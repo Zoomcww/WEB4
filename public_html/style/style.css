@@ -1,10 +1,44 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 16.05.2021, 22:08:25
-    Author     : Zoomcw
-*/
+ body{
+    margin: 0;
+    padding: 0;
+}
 
+a { 
+    color: white;
+}
+
+div{
+    height: 100px; 
+    width: 200px; 
+    margin: 10px 10px 10px 10px; 
+}
+
+#d2 { 
+    background-color: red; 
+}
+
+#d11 { 
+    margin-left: 35px; 
+    margin-top: 30px; 
+    font-size: 25px; 
+    font-weight: 700; 
+}
+.first {
+    transform: skewY(-2deg);
+    transition: all 1s;
+    opacity: 1; 
+}
+
+.first:hover { 
+    opacity: 0.5; 
+}
+
+.mod {
+    background-color: silver; 
+    border: 1px solid #000000; 
+    border-radius: 10px; 
+}
+
+.mod:hover { 
+    border: 3px solid #4682B4; 
+}
